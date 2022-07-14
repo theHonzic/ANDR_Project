@@ -1,1 +1,2 @@
-# ANDR_Project
+# Projekt k předmětu Vývoj aplikací pro Android I
+Jedná se o aplikaci, která slouží k ukládání různých cest. Uživatel si může uložit data jako destinace, výchozí bod, datum, dopravní prostředek. Vše je ukládáno do Room database včetně souřadnic ze zadaných míst, pomocí geocoderu. Uživatel si poté může zobrazit jak minulé, tak i budoucí cesty a poté je zobrazit na mapě. Aplikace umožní sdílení pomocí QR kódu, který vede na přidání události do google kalendáře. Aplikace je psána v architektuře MVVM, využívá dependency injection, safeargs a coroutines.
